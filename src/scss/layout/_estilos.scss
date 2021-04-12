@@ -1,0 +1,59 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .contenedor-boton{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: $separacion / 2;
+    }
+    .contenido{
+        h3{
+            font-size: 2rem;
+            font-weight: $bold;
+            color: $Azul;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .texto-1{
+            text-align: center;
+        }
+    }
+}
+
+.contenedor-formulario{
+    margin-top: $separacion / 2;
+    input{
+        margin-top: $separacion / 3;
+        padding: 1rem 0;
+        border: none;
+        border-bottom: 1px solid $grisOscuro;
+        width: 100%;
+        &:focus{
+            outline: none;
+            border-bottom: 1px solid $negro;
+        }
+    }
+}
+
+.boton {
+    background-color: $Amarillo;
+    color: $grisOscuro;
+    text-decoration: none;
+    padding: 2rem 10rem;
+    font-size: 2rem;
+    font-weight: $bold;
+    border-radius: .5rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        color: $Azul;
+    }
+    @include tablet{
+        padding: 2rem 30rem;
+    }
+}
