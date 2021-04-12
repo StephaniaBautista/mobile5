@@ -1,0 +1,32 @@
+body{
+    background: $Azul;
+}
+
+.header{
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
+        .contenedor-imagen{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 2rem;
+            .imagen{
+                width: 4rem;
+                height: 4rem;
+                border-radius: 50%;
+                background-image: url(../../../build/img/definicion-de-persona-min.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    h1{
+        margin: -3rem 1rem;
+        text-align: left;
+        font-size: 3.5rem;
+        color: $blanco;
+    }
+}

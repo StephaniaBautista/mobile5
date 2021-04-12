@@ -1,0 +1,11 @@
+.contenedor-titulos{
+    display: flex;
+    align-items: center;
+    .formulario-ciudades{
+        background: transparent;
+        padding: .5rem 1rem;
+        border-radius: 5rem;
+        border: 1px solid $azulGris;
+        color: $azulGris;
+    }
+}
